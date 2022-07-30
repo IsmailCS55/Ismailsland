@@ -37,7 +37,7 @@ pygame.draw.circle(display, random.choice(colors), (cx, cy), width_of_circle)
 
 carImg = pygame.image.load('img0.png')
 
-def car(x,y):
+def car(x,y): # this is actually not a car just an red rectangle for the test 
     display.blit(carImg, (x,y))
 
 
